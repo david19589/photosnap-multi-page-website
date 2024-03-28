@@ -21,6 +21,8 @@ import svg3 from "/src/assets/features/desktop/embed.svg";
 
 import { useState } from "react";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
+
 function Home() {
   const [flex, setFlex] = useState(0);
 
@@ -95,16 +97,18 @@ function Home() {
             Easily add photos, text, embed maps and media from other networks.
             Then share your story with everyone.
           </p>
-          <div className="cursor-pointer flex flex-wrap max-w-[207px] group">
-            <h1 className="group-hover:underline text-[12px] leading-[15.62px] tracking-[2px] text-black font-[700] mr-[18px]">
-              VIEW THE STORIES
-            </h1>
-            <svg xmlns="http://www.w3.org/2000/svg" width="43" height="14">
-              <g fill="none" fillRule="evenodd" stroke="#000">
-                <path d="M0 7h41.864M35.428 1l6 6-6 6" />
-              </g>
-            </svg>
-          </div>
+          <Link to="/Stories">
+            <div className="cursor-pointer flex flex-wrap max-w-[207px] group">
+              <h1 className="group-hover:underline text-[12px] leading-[15.62px] tracking-[2px] text-black font-[700] mr-[18px]">
+                VIEW THE STORIES
+              </h1>
+              <svg xmlns="http://www.w3.org/2000/svg" width="43" height="14">
+                <g fill="none" fillRule="evenodd" stroke="#000">
+                  <path d="M0 7h41.864M35.428 1l6 6-6 6" />
+                </g>
+              </svg>
+            </div>
+          </Link>
         </div>
       </div>
       <div className="tablet:flex tablet:flex-row-reverse">
@@ -132,16 +136,18 @@ function Home() {
             audience. Our tool is designed for photographers of all levels,
             brands, businesses you name it.
           </p>
-          <div className="cursor-pointer flex flex-wrap max-w-[207px] group">
-            <h1 className="group-hover:underline text-[12px] leading-[15.62px] tracking-[2px] text-black font-[700] mr-[18px]">
-              VIEW THE STORIES
-            </h1>
-            <svg xmlns="http://www.w3.org/2000/svg" width="43" height="14">
-              <g fill="none" fillRule="evenodd" stroke="#000">
-                <path d="M0 7h41.864M35.428 1l6 6-6 6" />
-              </g>
-            </svg>
-          </div>
+          <Link to="/Stories">
+            <div className="cursor-pointer flex flex-wrap max-w-[207px] group">
+              <h1 className="group-hover:underline text-[12px] leading-[15.62px] tracking-[2px] text-black font-[700] mr-[18px]">
+                VIEW THE STORIES
+              </h1>
+              <svg xmlns="http://www.w3.org/2000/svg" width="43" height="14">
+                <g fill="none" fillRule="evenodd" stroke="#000">
+                  <path d="M0 7h41.864M35.428 1l6 6-6 6" />
+                </g>
+              </svg>
+            </div>
+          </Link>
         </div>
       </div>
       <div className="desktop:w-[100%] desktop:flex desktop:flex-row tablet:mb-[120px] tablet:flex tablet:flex-col tablet:justify-center mb-[80px]">
