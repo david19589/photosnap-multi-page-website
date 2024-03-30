@@ -1,23 +1,7 @@
-import Img1Mobile from "/src/assets/home/mobile/create-and-share.jpg";
-import Img1Tablet from "/src/assets/home/tablet/create-and-share.jpg";
-import Img1Desktop from "/src/assets/home/desktop/create-and-share.jpg";
-import Img2Mobile from "/src/assets/home/mobile/beautiful-stories.jpg";
-import Img2Tablet from "/src/assets/home/tablet/beautiful-stories.jpg";
-import Img2Desktop from "/src/assets/home/desktop/beautiful-stories.jpg";
-import Img3Mobile from "/src/assets/home/mobile/designed-for-everyone.jpg";
-import Img3Tablet from "/src/assets/home/tablet/designed-for-everyone.jpg";
-import Img3Desktop from "/src/assets/home/desktop/designed-for-everyone.jpg";
-import img4Mobile from "/src/assets/stories/mobile/mountains.jpg";
-import img4Desktop from "/src/assets/stories/desktop/mountains.jpg";
-import img5Mobile from "/src/assets/stories/mobile/cityscapes.jpg";
-import img5Desktop from "/src/assets/stories/desktop/cityscapes.jpg";
-import img6Mobile from "/src/assets/stories/mobile/18-days-voyage.jpg";
-import img6Desktop from "/src/assets/stories/desktop/18-days-voyage.jpg";
-import img7Mobile from "/src/assets/stories/mobile/architecturals.jpg";
-import img7Desktop from "/src/assets/stories/desktop/architecturals.jpg";
 import svg1 from "/src/assets/features/desktop/responsive.svg";
 import svg2 from "/src/assets/features/desktop/no-limit.svg";
 import svg3 from "/src/assets/features/desktop/embed.svg";
+import images from "../images"
 
 import { useState } from "react";
 import { motion } from "framer-motion";
@@ -41,17 +25,17 @@ function Home() {
       <div className="tablet:flex tablet:flex-row-reverse">
         <img
           className="tablet:hidden w-[100%]"
-          src={Img1Mobile}
+          src={images[0]}
           alt="sea view"
         />
         <img
           className="hidden desktop:hidden tablet:flex w-[35.4%]"
-          src={Img1Tablet}
+          src={images[1]}
           alt="sea view"
         />
         <img
           className="hidden desktop:flex w-[100%]"
-          src={Img1Desktop}
+          src={images[2]}
           alt="sea view"
         />
         <div className="desktop:pl-[112px] tablet:py-[173px] tablet:px-[54px] w-[100%] bg-black pt-[72px] pb-[72px] pl-[33px] pr-[24px]">
@@ -77,15 +61,15 @@ function Home() {
         </div>
       </div>
       <div className="tablet:flex">
-        <img className="tablet:hidden w-[100%]" src={Img2Mobile} alt="laptop" />
+        <img className="tablet:hidden w-[100%]" src={images[3]} alt="laptop" />
         <img
           className="hidden desktop:hidden tablet:flex w-[35.5%]"
-          src={Img2Tablet}
+          src={images[4]}
           alt="laptop"
         />
         <img
           className="hidden desktop:flex w-[100%]"
-          src={Img2Desktop}
+          src={images[5]}
           alt="laptop"
         />
         <div className="desktop:pl-[112px] desktop:pr-[111px] tablet:py-[173px] tablet:px-[54px] bg-white pt-[72px] pb-[72px] pl-[33px] pr-[24px]">
@@ -114,17 +98,17 @@ function Home() {
       <div className="tablet:flex tablet:flex-row-reverse">
         <img
           className="tablet:hidden w-[100%]"
-          src={Img3Mobile}
+          src={images[6]}
           alt="cameraman"
         />
         <img
           className="hidden desktop:hidden tablet:flex w-[35.5%]"
-          src={Img3Tablet}
+          src={images[7]}
           alt="cameraman"
         />
         <img
           className="hidden desktop:flex w-[100%]"
-          src={Img3Desktop}
+          src={images[8]}
           alt="cameraman"
         />
         <div className="desktop:pl-[112px] desktop:pr-[111px] tablet:mr-[24px] tablet:py-[173px] tablet:px-[54px] bg-white pt-[72px] pb-[72px] pl-[33px] pr-[24px]">
@@ -163,12 +147,12 @@ function Home() {
           >
             <img
               className="w-[100%] tablet:hidden"
-              src={img4Mobile}
+              src={images[9]}
               alt="Mountains"
             />
             <img
               className="w-[100%] hidden tablet:flex"
-              src={img4Desktop}
+              src={images[10]}
               alt="Mountains"
             />
             <div className="z-10 pl-[33px] pr-[32px] pb-[40px] absolute left-0 right-0 bottom-0">
@@ -208,12 +192,12 @@ function Home() {
           >
             <img
               className="w-[100%] tablet:hidden"
-              src={img5Mobile}
+              src={images[11]}
               alt="Towers"
             />
             <img
               className="w-[100%] hidden tablet:flex"
-              src={img5Desktop}
+              src={images[12]}
               alt="Towers"
             />
             <div className="z-10 pl-[33px] pr-[32px] pb-[40px] absolute left-0 right-0 bottom-0">
@@ -255,12 +239,12 @@ function Home() {
           >
             <img
               className="w-[100%] tablet:hidden"
-              src={img6Mobile}
+              src={images[13]}
               alt="Man"
             />
             <img
               className="w-[100%] hidden tablet:flex"
-              src={img6Desktop}
+              src={images[14]}
               alt="Man"
             />
             <div className="z-10 pl-[33px] pr-[32px] pb-[40px] absolute left-0 right-0 bottom-0">
@@ -300,12 +284,12 @@ function Home() {
           >
             <img
               className="w-[100%] tablet:hidden"
-              src={img7Mobile}
+              src={images[15]}
               alt="Architecturals"
             />
             <img
               className="w-[100%] hidden tablet:flex"
-              src={img7Desktop}
+              src={images[16]}
               alt="Architecturals"
             />
             <div className="z-10 pl-[33px] pr-[32px] pb-[40px] absolute left-0 right-0 bottom-0">

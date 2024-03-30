@@ -1,38 +1,4 @@
-import img1Mobile from "/src/assets/stories/mobile/moon-of-appalacia.jpg";
-import img1Tablet from "/src/assets/stories/tablet/moon-of-appalacia.jpg";
-import img1Desktop from "/src/assets/stories/desktop/moon-of-appalacia.jpg";
-import img4Mobile from "/src/assets/stories/mobile/mountains.jpg";
-import img4Desktop from "/src/assets/stories/desktop/mountains.jpg";
-import img5Mobile from "/src/assets/stories/mobile/cityscapes.jpg";
-import img5Desktop from "/src/assets/stories/desktop/cityscapes.jpg";
-import img6Mobile from "/src/assets/stories/mobile/18-days-voyage.jpg";
-import img6Desktop from "/src/assets/stories/desktop/18-days-voyage.jpg";
-import img7Mobile from "/src/assets/stories/mobile/architecturals.jpg";
-import img7Desktop from "/src/assets/stories/desktop/architecturals.jpg";
-import img8Mobile from "/src/assets/stories/mobile/world-tour.jpg";
-import img8Desktop from "/src/assets/stories/desktop/world-tour.jpg";
-import img9Mobile from "/src/assets/stories/mobile/unforeseen-corners.jpg";
-import img9Desktop from "/src/assets/stories/desktop/unforeseen-corners.jpg";
-import img10Mobile from "/src/assets/stories/mobile/king-on-africa.jpg";
-import img10Desktop from "/src/assets/stories/desktop/king-on-africa.jpg";
-import img11Mobile from "/src/assets/stories/mobile/trip-to-nowhere.jpg";
-import img11Desktop from "/src/assets/stories/desktop/trip-to-nowhere.jpg";
-import img12Mobile from "/src/assets/stories/mobile/rage-of-the-sea.jpg";
-import img12Desktop from "/src/assets/stories/desktop/rage-of-the-sea.jpg";
-import img13Mobile from "/src/assets/stories/mobile/running-free.jpg";
-import img13Desktop from "/src/assets/stories/desktop/running-free.jpg";
-import img14Mobile from "/src/assets/stories/mobile/behind-the-waves.jpg";
-import img14Desktop from "/src/assets/stories/desktop/behind-the-waves.jpg";
-import img15Mobile from "/src/assets/stories/mobile/calm-waters.jpg";
-import img15Desktop from "/src/assets/stories/desktop/calm-waters.jpg";
-import img16Mobile from "/src/assets/stories/mobile/milky-way.jpg";
-import img16Desktop from "/src/assets/stories/desktop/milky-way.jpg";
-import img17Mobile from "/src/assets/stories/mobile/dark-forest.jpg";
-import img17Desktop from "/src/assets/stories/desktop/dark-forest.jpg";
-import img18Mobile from "/src/assets/stories/mobile/somwarpet.jpg";
-import img18Desktop from "/src/assets/stories/desktop/somwarpet.jpg";
-import img19Mobile from "/src/assets/stories/mobile/land-of-dreams.jpg";
-import img19Desktop from "/src/assets/stories/desktop/land-of-dreams.jpg";
+import Images from "../secondImages";
 
 import { useState } from "react";
 import { motion } from "framer-motion";
@@ -55,17 +21,17 @@ function Stories() {
       <div>
         <img
           className="tablet:hidden desktop:hidden w-[100%]"
-          src={img1Mobile}
+          src={Images[0]}
           alt="moon"
         />
         <img
           className="hidden desktop:hidden tablet:flex w-[100%]"
-          src={img1Tablet}
+          src={Images[1]}
           alt="moon"
         />
         <img
           className="hidden tablet:hidden desktop:flex w-[100%]"
-          src={img1Desktop}
+          src={Images[2]}
           alt="moon"
         />
         <div className="desktop:pl-[112px] tablet:absolute tablet:top-[71.61px] tablet:bg-inherit tablet:pl-[39px] tablet:py-[122px] bg-black pt-[48px] pb-[48px] pl-[33px] pr-[24px] mt-[-2px]">
@@ -115,12 +81,12 @@ function Stories() {
             >
               <img
                 className="w-[100%] tablet:hidden"
-                src={img4Mobile}
-                alt="Mountains"
+                src={Images[3]}
+                alt="Mountain"
               />
               <img
                 className="w-[100%] hidden tablet:flex"
-                src={img4Desktop}
+                src={Images[4]}
                 alt="Mountains"
               />
               <div className="z-10 pl-[33px] pr-[32px] pb-[40px] absolute left-0 right-0 bottom-0">
@@ -164,12 +130,12 @@ function Stories() {
             >
               <img
                 className="w-[100%] tablet:hidden"
-                src={img5Mobile}
+                src={Images[5]}
                 alt="Towers"
               />
               <img
                 className="w-[100%] hidden tablet:flex"
-                src={img5Desktop}
+                src={Images[6]}
                 alt="Towers"
               />
               <div className="z-10 pl-[33px] pr-[32px] pb-[40px] absolute left-0 right-0 bottom-0">
@@ -215,12 +181,12 @@ function Stories() {
             >
               <img
                 className="w-[100%] tablet:hidden"
-                src={img6Mobile}
+                src={Images[7]}
                 alt="Man"
               />
               <img
                 className="w-[100%] hidden tablet:flex"
-                src={img6Desktop}
+                src={Images[8]}
                 alt="Man"
               />
               <div className="z-10 pl-[33px] pr-[32px] pb-[40px] absolute left-0 right-0 bottom-0">
@@ -265,12 +231,12 @@ function Stories() {
             >
               <img
                 className="w-[100%] tablet:hidden"
-                src={img7Mobile}
+                src={Images[9]}
                 alt="Architecturals"
               />
               <img
                 className="w-[100%] hidden tablet:flex"
-                src={img7Desktop}
+                src={Images[10]}
                 alt="Architecturals"
               />
               <div className="z-10 pl-[33px] pr-[32px] pb-[40px] absolute left-0 right-0 bottom-0">
@@ -318,12 +284,12 @@ function Stories() {
             >
               <img
                 className="w-[100%] tablet:hidden"
-                src={img8Mobile}
+                src={Images[11]}
                 alt="Architecturals"
               />
               <img
                 className="w-[100%] hidden tablet:flex"
-                src={img8Desktop}
+                src={Images[12]}
                 alt="Architecturals"
               />
               <div className="z-10 pl-[33px] pr-[32px] pb-[40px] absolute left-0 right-0 bottom-0">
@@ -367,12 +333,12 @@ function Stories() {
             >
               <img
                 className="w-[100%] tablet:hidden"
-                src={img9Mobile}
+                src={Images[13]}
                 alt="Architecturals"
               />
               <img
                 className="w-[100%] hidden tablet:flex"
-                src={img9Desktop}
+                src={Images[14]}
                 alt="Architecturals"
               />
               <div className="z-10 pl-[33px] pr-[32px] pb-[40px] absolute left-0 right-0 bottom-0">
@@ -418,12 +384,12 @@ function Stories() {
             >
               <img
                 className="w-[100%] tablet:hidden"
-                src={img10Mobile}
+                src={Images[15]}
                 alt="Architecturals"
               />
               <img
                 className="w-[100%] hidden tablet:flex"
-                src={img10Desktop}
+                src={Images[16]}
                 alt="Architecturals"
               />
               <div className="z-10 pl-[33px] pr-[32px] pb-[40px] absolute left-0 right-0 bottom-0">
@@ -467,12 +433,12 @@ function Stories() {
             >
               <img
                 className="w-[100%] tablet:hidden"
-                src={img11Mobile}
+                src={Images[17]}
                 alt="Architecturals"
               />
               <img
                 className="w-[100%] hidden tablet:flex"
-                src={img11Desktop}
+                src={Images[18]}
                 alt="Architecturals"
               />
               <div className="z-10 pl-[33px] pr-[32px] pb-[40px] absolute left-0 right-0 bottom-0">
@@ -520,12 +486,12 @@ function Stories() {
             >
               <img
                 className="w-[100%] tablet:hidden"
-                src={img12Mobile}
+                src={Images[19]}
                 alt="Architecturals"
               />
               <img
                 className="w-[100%] hidden tablet:flex"
-                src={img12Desktop}
+                src={Images[20]}
                 alt="Architecturals"
               />
               <div className="z-10 pl-[33px] pr-[32px] pb-[40px] absolute left-0 right-0 bottom-0">
@@ -569,12 +535,12 @@ function Stories() {
             >
               <img
                 className="w-[100%] tablet:hidden"
-                src={img13Mobile}
+                src={Images[21]}
                 alt="Architecturals"
               />
               <img
                 className="w-[100%] hidden tablet:flex"
-                src={img13Desktop}
+                src={Images[22]}
                 alt="Architecturals"
               />
               <div className="z-10 pl-[33px] pr-[32px] pb-[40px] absolute left-0 right-0 bottom-0">
@@ -620,12 +586,12 @@ function Stories() {
             >
               <img
                 className="w-[100%] tablet:hidden"
-                src={img14Mobile}
+                src={Images[23]}
                 alt="Architecturals"
               />
               <img
                 className="w-[100%] hidden tablet:flex"
-                src={img14Desktop}
+                src={Images[24]}
                 alt="Architecturals"
               />
               <div className="z-10 pl-[33px] pr-[32px] pb-[40px] absolute left-0 right-0 bottom-0">
@@ -669,12 +635,12 @@ function Stories() {
             >
               <img
                 className="w-[100%] tablet:hidden"
-                src={img15Mobile}
+                src={Images[25]}
                 alt="Architecturals"
               />
               <img
                 className="w-[100%] hidden tablet:flex"
-                src={img15Desktop}
+                src={Images[26]}
                 alt="Architecturals"
               />
               <div className="z-10 pl-[33px] pr-[32px] pb-[40px] absolute left-0 right-0 bottom-0">
@@ -722,12 +688,12 @@ function Stories() {
             >
               <img
                 className="w-[100%] tablet:hidden"
-                src={img16Mobile}
+                src={Images[27]}
                 alt="Architecturals"
               />
               <img
                 className="w-[100%] hidden tablet:flex"
-                src={img16Desktop}
+                src={Images[28]}
                 alt="Architecturals"
               />
               <div className="z-10 pl-[33px] pr-[32px] pb-[40px] absolute left-0 right-0 bottom-0">
@@ -771,12 +737,12 @@ function Stories() {
             >
               <img
                 className="w-[100%] tablet:hidden"
-                src={img17Mobile}
+                src={Images[29]}
                 alt="Architecturals"
               />
               <img
                 className="w-[100%] hidden tablet:flex"
-                src={img17Desktop}
+                src={Images[30]}
                 alt="Architecturals"
               />
               <div className="z-10 pl-[33px] pr-[32px] pb-[40px] absolute left-0 right-0 bottom-0">
@@ -822,12 +788,12 @@ function Stories() {
             >
               <img
                 className="w-[100%] tablet:hidden"
-                src={img18Mobile}
+                src={Images[31]}
                 alt="Architecturals"
               />
               <img
                 className="w-[100%] hidden tablet:flex"
-                src={img18Desktop}
+                src={Images[32]}
                 alt="Architecturals"
               />
               <div className="z-10 pl-[33px] pr-[32px] pb-[40px] absolute left-0 right-0 bottom-0">
@@ -871,12 +837,12 @@ function Stories() {
             >
               <img
                 className="w-[100%] tablet:hidden"
-                src={img19Mobile}
+                src={Images[33]}
                 alt="Architecturals"
               />
               <img
                 className="w-[100%] hidden tablet:flex"
-                src={img19Desktop}
+                src={Images[34]}
                 alt="Architecturals"
               />
               <div className="z-10 pl-[33px] pr-[32px] pb-[40px] absolute left-0 right-0 bottom-0">
