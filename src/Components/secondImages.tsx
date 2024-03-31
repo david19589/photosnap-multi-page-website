@@ -1,6 +1,3 @@
-import Img1Mobile from "/src/assets/stories/mobile/moon-of-appalacia.jpg";
-import Img1Tablet from "/src/assets/stories/tablet/moon-of-appalacia.jpg";
-import Img1Desktop from "/src/assets/stories/desktop/moon-of-appalacia.jpg";
 import Img2Mobile from "/src/assets/stories/mobile/mountains.jpg";
 import Img2Desktop from "/src/assets/stories/desktop/mountains.jpg";
 import Img3Mobile from "/src/assets/stories/mobile/cityscapes.jpg";
@@ -34,75 +31,151 @@ import Img16Desktop from "/src/assets/stories/desktop/somwarpet.jpg";
 import Img17Mobile from "/src/assets/stories/mobile/land-of-dreams.jpg";
 import Img17Desktop from "/src/assets/stories/desktop/land-of-dreams.jpg";
 
-const secondImagesArr = [
-  Img1Mobile,
-
-  Img1Tablet,
-
-  Img1Desktop,
-
-  Img2Mobile,
-
-  Img2Desktop,
-
-  Img3Mobile,
-
-  Img3Desktop,
-
-  Img4Mobile,
-
-  Img4Desktop,
-
-  Img5Mobile,
-
-  Img5Desktop,
-
-  Img6Mobile,
-
-  Img6Desktop,
-
-  Img7Mobile,
-
-  Img7Desktop,
-
-  Img8Mobile,
-
-  Img8Desktop,
-
-  Img9Mobile,
-
-  Img9Desktop,
-
-  Img10Mobile,
-
-  Img10Desktop,
-
-  Img11Mobile,
-
-  Img11Desktop,
-
-  Img12Mobile,
-
-  Img12Desktop,
-
-  Img13Mobile,
-
-  Img13Desktop,
-
-  Img14Mobile,
-
-  Img14Desktop,
-
-  Img15Mobile,
-
-  Img15Desktop,
-
-  Img16Mobile,
-
-  Img16Desktop,
-
-  Img17Mobile,
-
-  Img17Desktop,
+const obj = [
+  {
+    date: "April 16th 2020",
+    description: "The Mountains",
+    authorName: "by John Appleseed",
+    src: {
+      imgMobile: Img2Mobile,
+      imgDesktop: Img2Desktop,
+    },
+  },
+  {
+    date: "April 14th 2020",
+    description: "Sunset Cityscapes",
+    authorName: "by Benjamin Cruz",
+    src: {
+      imgMobile: Img3Mobile,
+      imgDesktop: Img3Desktop,
+    },
+  },
+  {
+    date: "April 11th 2020",
+    description: "18 Days Voyage",
+    authorName: "by Alexei Borodin",
+    src: {
+      imgMobile: Img4Mobile,
+      imgDesktop: Img4Desktop,
+    },
+  },
+  {
+    date: "April 9th 2020",
+    description: "Architecturals",
+    authorName: "by Samantha Brooke",
+    src: {
+      imgMobile: Img5Mobile,
+      imgDesktop: Img5Desktop,
+    },
+  },
+  {
+    date: "April 7th 2020",
+    description: "World Tour 2019",
+    authorName: "by Timothy Wagner",
+    src: {
+      imgMobile: Img6Mobile,
+      imgDesktop: Img6Desktop,
+    },
+  },
+  {
+    date: "April 3rd 2020",
+    description: "Unforeseen Corners",
+    authorName: "by William Malcolm",
+    src: {
+      imgMobile: Img7Mobile,
+      imgDesktop: Img7Desktop,
+    },
+  },
+  {
+    date: "March 29th 2020",
+    description: "King on Africa: Part II",
+    authorName: "by Tim Hillenburg",
+    src: {
+      imgMobile: Img8Mobile,
+      imgDesktop: Img8Desktop,
+    },
+  },
+  {
+    date: "March 21st 2020",
+    description: "The Trip to Nowhere ",
+    authorName: "by Felicia Rourke",
+    src: {
+      imgMobile: Img9Mobile,
+      imgDesktop: Img9Desktop,
+    },
+  },
+  {
+    date: "March 19th 2020",
+    description: "Rage of The Sea",
+    authorName: "by Mohammed Abdul",
+    src: {
+      imgMobile: Img10Mobile,
+      imgDesktop: Img10Desktop,
+    },
+  },
+  {
+    date: "March 16th 2020",
+    description: "Running Free",
+    authorName: "by Michelle",
+    src: {
+      imgMobile: Img11Mobile,
+      imgDesktop: Img11Desktop,
+    },
+  },
+  {
+    date: "March 11th 2020",
+    description: "Behind the Waves",
+    authorName: "by Lamarr Wilson",
+    src: {
+      imgMobile: Img12Mobile,
+      imgDesktop: Img12Desktop,
+    },
+  },
+  {
+    date: "March 9th 2020",
+    description: "Calm Waters",
+    authorName: "by Samantha Brooke",
+    src: {
+      imgMobile: Img13Mobile,
+      imgDesktop: Img13Desktop,
+    },
+  },
+  {
+    date: "March 5th 2020",
+    description: "The Milky Way",
+    authorName: "by Benjamin Cruz",
+    src: {
+      imgMobile: Img14Mobile,
+      imgDesktop: Img14Desktop,
+    },
+  },
+  {
+    date: "March 4th 2020",
+    description: "Night at The Dark Forest",
+    authorName: "by Mohammed Abdul",
+    src: {
+      imgMobile: Img15Mobile,
+      imgDesktop: Img15Desktop,
+    },
+  },
+  {
+    date: "March 1st 2020",
+    description: "Somwarpet`s Beauty",
+    authorName: "by Michelle ",
+    src: {
+      imgMobile: Img16Mobile,
+      imgDesktop: Img16Desktop,
+    },
+  },
+  {
+    date: "February 25th 2020",
+    description: "Land of Dreams",
+    authorName: "by William Malcolm",
+    src: {
+      imgMobile: Img17Mobile,
+      imgDesktop: Img17Desktop,
+    },
+  },
 ];
-export default secondImagesArr;
+
+export default obj;
